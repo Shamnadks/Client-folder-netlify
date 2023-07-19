@@ -1,0 +1,27 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  border-top: 0.5px solid grey;
+}
+
+.conversation:hover {
+  background-color: #00D5FA;
+}
+
+.conversationImg {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
