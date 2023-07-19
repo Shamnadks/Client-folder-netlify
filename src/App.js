@@ -13,7 +13,7 @@ import { CssBaseline,ThemeProvider } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import { themeSettings } from './theme'; 
 import { Toaster } from 'react-hot-toast';
-import Error from "scenes/404/index"
+import Error from "scenes/404/index";
 
 function App() {
   const mode = useSelector((state) => state.mode);
