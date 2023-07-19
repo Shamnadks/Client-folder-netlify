@@ -43,7 +43,7 @@ const Applications = () => {
 
 
   function handleDelete(item, postId, email, type) {
-    if (type == "post") 
+    if (type === "post") 
     {
       Swal.fire({
         title: "Are you sure?",
@@ -110,7 +110,7 @@ const Applications = () => {
       confirmButtonText: "Yes, reject it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        if (type == "post") {
+        if (type === "post") {
           axios
             .delete(`posts/${postId}/report?id=${item}&name=${email}`)
             .then((response) => {
@@ -175,7 +175,7 @@ const Applications = () => {
                 );
               }}
             >
-              {params.row.type == "post" ? "Delete post" : "Block user"}
+              {params.row.type === "post" ? "Delete post" : "Block user"}
             </div>
             <div
               className="deleteButton"
