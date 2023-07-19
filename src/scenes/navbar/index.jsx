@@ -40,7 +40,7 @@ const fullName = `${user.firstName} ${user.lastName}`;
 const fetchSearchResults = async (value) => {
     if (value.length > 0) {
       try {
-        const response = await fetch(`http://shoemart.site/users/search/${value}`);
+        const response = await fetch(`https://shoemart.site/users/search/${value}`);
         const data = await response.json();
         setResults(data);
       } catch (err) {
