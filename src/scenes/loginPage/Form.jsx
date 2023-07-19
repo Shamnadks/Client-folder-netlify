@@ -131,7 +131,7 @@ const Form = () => {
       location: "India",
       occupation: "Not Specified",
     };
-    const response =   await fetch("http://localhost:3001/auth/google", {
+    const response =   await fetch("http://shoemart.site/auth/google", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

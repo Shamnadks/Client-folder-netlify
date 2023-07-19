@@ -1,4 +1,4 @@
-export const baseUrl = "http://localhost:3001/";
+export const baseUrl = "http://shoemart.site/";
 
 export const registerUser = "auth/register";
 export const loginUser = "auth/login";
